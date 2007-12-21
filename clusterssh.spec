@@ -10,6 +10,7 @@ Group:         Shells
 License:       GPL
 URL:           http://clusterssh.sourceforge.net
 Source0:       http://download.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
+BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}
 BuildArch:     noarch
 Requires:      perl-Tk perl-X11-Protocol xterm
 Buildrequires:	perl-devel
