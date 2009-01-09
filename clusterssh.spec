@@ -1,6 +1,6 @@
 %define name	clusterssh
-%define version 3.19.1
-%define release %mkrel 3
+%define version 3.22
+%define release %mkrel 1
 
 Name:          %name
 Version:       %version
@@ -25,7 +25,7 @@ Not limited to use with clusters, however.
 
 %build
 %configure
-%make 
+%make
 
 %install
 rm -rf %{buildroot}
