@@ -1,5 +1,5 @@
 %define name	clusterssh
-%define version 3.22
+%define version 3.26
 %define release %mkrel 1
 
 Name:          %name
@@ -9,7 +9,7 @@ Summary:       Secure concurrent multi-server terminal control
 Group:         Shells
 License:       GPL
 URL:           http://clusterssh.sourceforge.net
-Source0:       http://download.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
+Source0:       http://download.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}
 BuildArch:     noarch
 Requires:      perl-Tk perl-X11-Protocol xterm
