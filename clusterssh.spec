@@ -1,5 +1,5 @@
 %define name	clusterssh
-%define version 3.27
+%define version 3.28
 %define release %mkrel 1
 
 Name:          %name
