@@ -8,7 +8,7 @@ Release:       %release
 Summary:       Secure concurrent multi-server terminal control
 Group:         Shells
 License:       GPL
-URL:           http://clusterssh.sourceforge.net
+URL:           https://clusterssh.sourceforge.net
 Source0:       http://download.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}
 BuildArch:     noarch
